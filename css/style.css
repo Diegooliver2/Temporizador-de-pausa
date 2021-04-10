@@ -46,19 +46,24 @@ body{
 }
 
 h3{
-    margin-right: 4px;
+    margin-right: 5px;
     text-shadow: 1px 1px 1px #fff;
 }
 
 .container select{
     border: none;
     border-radius: 5px;
-    padding: 0 3px;
     height: 25px;
-    width: 40px;
+    width: 44px;
+    text-align: center;
     background-color: #f0f0fa;
     box-shadow: 1px 1px 3px #bbb;
     font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.listaMS{
     font-weight: 800;
 }
 
@@ -72,10 +77,12 @@ h3{
     border: none;
     border-radius: 5px;
     box-shadow: 1px 1px 3px #0008;
+    cursor: pointer;
 }
 
 .pausas{
-    padding: 4% 5%;
+    padding: 4%;
+    margin: 0 4%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }

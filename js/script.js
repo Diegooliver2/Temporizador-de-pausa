@@ -6,11 +6,11 @@
         let segAtual, minAtual, intervalo
 
         for(let i = 0; i <= 60; i++){
-            minutos.innerHTML += `<option value="${i}">${i}</option>`
+            minutos.innerHTML += `<option class="listaMS" value="${i}">${i}</option>`
         }
 
         for(let i = 0; i <= 60; i++){
-            segundos.innerHTML += `<option value="${i}">${i}</option>`
+            segundos.innerHTML += `<option class="listaMS" value="${i}">${i}</option>`
         }
 
         tempo.innerHTML = `${minutos.value}:${segundos.value}`
