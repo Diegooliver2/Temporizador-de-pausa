@@ -39,7 +39,6 @@
                 else {
                     clearInterval(intervalo)
                 }
-
             },1000)
         }
 
