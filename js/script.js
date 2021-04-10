@@ -27,18 +27,19 @@
 
                 if(segAtual > 0){
                     segAtual--
+                    tempo.innerHTML = `${minAtual}:${segAtual}`
                 }
 
-                if(segAtual <= 0){
-                    if(minAtual > 0){
-                        minAtual--
-                        segAtual = 59
-                    } else {
-                        clearInterval(intervalo)
-                    }
+                else if(minAtual > 0 && segAtual == 0){
+                    minAtual--
+                    segAtual = 59
+                    tempo.innerHTML = `${minAtual}:${segAtual}`
+                }
+                
+                else {
+                    clearInterval(intervalo)
                 }
 
-                tempo.innerHTML = `${minAtual}:${segAtual}`
             },1000)
         }
 
