@@ -9,7 +9,7 @@
             minutos.innerHTML += `<option class="listaMS" value="${i}">${i}</option>`
         }
 
-        for(let i = 0; i <= 60; i++){
+        for(let i = 0; i < 60; i++){
             segundos.innerHTML += `<option class="listaMS" value="${i}">${i}</option>`
         }
 
