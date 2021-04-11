@@ -15,6 +15,7 @@ body{
 @media only screen and (min-device-width: 700px){
 
     .container{
+        min-width: 400px;
         max-width: 600px;
         max-height: 70vh;
         margin: 5% auto 0 auto;
