@@ -43,6 +43,20 @@ body{
         justify-content: space-between;
         margin: 2% auto;
     }
+
+    .btn{
+        width: 120px;
+        height: 40px;
+        margin: 0 2.5%;
+        background-color: rgb(57, 177, 224);
+        color: #fff;
+        font-size: 15px;
+        font-weight: bolder;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 1px 1px 3px #0008;
+        cursor: pointer;
+    }
 }
 
 
@@ -74,6 +88,20 @@ body{
         justify-content: space-between;
         margin: 2% auto;
     }
+
+    .btn{
+        width: 90px;
+        height: 30px;
+        margin: 0 2.5%;
+        background-color: rgb(57, 177, 224);
+        color: #fff;
+        font-size: 10px;
+        font-weight: bolder;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 1px 1px 3px #0008;
+        cursor: pointer;
+    }
 }
 
 .conteudo{
@@ -82,20 +110,6 @@ body{
     background-color: #fafafa;
     border-radius: 15px;
     box-shadow: 3px 3px 5px #000;
-}
-
-.btn{
-    width: 20%;
-    height: 28px;
-    margin: 0 2.5%;
-    background-color: rgb(57, 177, 224);
-    color: #fff;
-    font-size: 10px;
-    font-weight: bolder;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 1px 1px 3px #0008;
-    cursor: pointer;
 }
 
 .container select{
