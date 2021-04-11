@@ -44,6 +44,20 @@ body{
         margin: 2% auto;
     }
 
+    .container select{
+        border: none;
+        border-radius: 5px;
+        width: 28%;
+        text-align: center;
+        background-color: #f0f0fa;
+        box-shadow: 1px 1px 3px #bbb;
+        font-size: 16px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+
+
     .btn{
         width: 120px;
         height: 40px;
@@ -83,10 +97,26 @@ body{
     }
 
     .ms{
-        width: 45%;
+        width: 40%;
         display: flex;
         justify-content: space-between;
         margin: 2% auto;
+    }
+
+    .ms h3{
+        font-size: 15px;
+    }
+
+    .container select{
+        border: none;
+        border-radius: 5px;
+        width: 28%;
+        text-align: center;
+        background-color: #f0f0fa;
+        box-shadow: 1px 1px 3px #bbb;
+        font-size: 12px;
+        font-weight: 700;
+        cursor: pointer;
     }
 
     .btn{
@@ -110,18 +140,6 @@ body{
     background-color: #fafafa;
     border-radius: 15px;
     box-shadow: 3px 3px 5px #000;
-}
-
-.container select{
-    border: none;
-    border-radius: 5px;
-    width: 28%;
-    text-align: center;
-    background-color: #f0f0fa;
-    box-shadow: 1px 1px 3px #bbb;
-    font-size: 16px;
-    font-weight: 700;
-    cursor: pointer;
 }
 
 .listaMS{
