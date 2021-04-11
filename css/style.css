@@ -80,8 +80,8 @@ body{
     }
     
     .pausas{
-        padding: 4%;
-        margin: 0 4%;
+        width: 90%;
+        padding: 5%;
         display: flex;
         justify-content: space-between;
     }
@@ -91,7 +91,7 @@ body{
 @media only screen and (max-device-width: 700px){
 
     .container{
-        max-width: 400px;
+        max-width: 350px;
         max-height: 56vh;
         margin: 5% auto 0 auto;
     }
@@ -145,8 +145,8 @@ body{
     }
     
     .btn{
-        min-width: 80px;
-        height: 28px;
+        min-width: 70px;
+        height: 25px;
         background-color: rgb(57, 177, 224);
         color: #fff;
         font-size: 10px;
